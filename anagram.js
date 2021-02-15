@@ -6,11 +6,11 @@ function Anamgram(str1, str2){
 
     const searchObj = {};
 
-    for (const i of str1){
+    for (let i of str1){
         searchObj[i] ? searchObj++ : 1;
     }
 
-    for(const j of str2){
+    for(let j of str2){
         if(!searchObj[j]) return false;
         searchObj[j]--;
     }
