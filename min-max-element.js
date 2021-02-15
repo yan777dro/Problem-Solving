@@ -1,4 +1,4 @@
-//min / smallest element of an array
+//find min / smallest element of an array
 //time complexity O(n)
 function MinElement(arr){
 const min = arr[0];
@@ -10,7 +10,7 @@ for (let i of arr){
 return min;
 }
 
-//max/largest element of an array
+//find max/largest element of an array
 //time complexity O(n)
 
 function max(arr){
