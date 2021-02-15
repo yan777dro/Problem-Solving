@@ -7,11 +7,11 @@ function NumbFreq(numb1, numb1){
 
     const obj = {};
 
-    for( const i of numb1){
+    for( let i of numb1){
         obj[i] ? obj[i]++ : 1;
     }
 
-    for(const j of numb2){
+    for(let j of numb2){
         if(!obj[j]) return false;
         obj[j]--
     }
