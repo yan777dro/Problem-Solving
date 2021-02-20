@@ -1,7 +1,10 @@
 // function to find the frequency two numbers can be found in two arrays
 //time complexity O(n)
 
-function NumbFreq(numb1, numb1){
+function NumbFreq(numb1, numb2){
+    
+    numb1 = [];
+    numb2 = [];
 
     if(numb1 != numb2) return false;
 
