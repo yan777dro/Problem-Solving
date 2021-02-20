@@ -6,7 +6,7 @@ function NumbFreq(numb1, numb2){
     numb1 = [];
     numb2 = [];
 
-    if(numb1 != numb2) return false;
+    if(numb1.length != numb2.length) return false;
 
     const obj = {};
 
