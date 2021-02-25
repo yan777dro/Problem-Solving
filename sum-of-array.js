@@ -6,7 +6,7 @@ function sumOfArray(arr){
     const sum = 0;
 
     for(let index of arr){
-        sum +=arr[index];
+        sum = sum + arr[index];
     }
 
     return sum;
