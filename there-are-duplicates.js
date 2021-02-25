@@ -14,6 +14,6 @@ function thereDups(arg){
 
     return false;
 
-
+//if there are duplicates return true otherwise return false
 
 }
