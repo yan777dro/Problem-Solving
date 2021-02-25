@@ -18,8 +18,8 @@ function max(arr){
     const max = arr[0];
 
     for ( let j of arr){
-        if (arr[i] > max)
-        max = arr[i];
+        if (arr[j] > max)
+        max = arr[j];
     }
 return max;
 
