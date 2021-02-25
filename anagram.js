@@ -1,4 +1,5 @@
 // find if two word are anagram 
+//if the two words are anagram of each other return true, otherwise false
 //time complexity O(n)
 function Anamgram(str1, str2){
 
