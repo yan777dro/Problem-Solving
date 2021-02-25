@@ -10,13 +10,13 @@ function NumbFreq(numb1, numb2){
 
     const obj = {};
 
-    for( let i of numb1){
-        obj[i] ? obj[i]++ : 1;
+    for( let index of numb1){
+        obj[index] ? obj[index]++ : 1;
     }
 
-    for(let j of numb2){
-        if(!obj[j]) return false;
-        obj[j]--
+    for(let index of numb2){
+        if(!obj[index]) return false;
+        obj[index]--
     }
 
     return true;
