@@ -3,9 +3,9 @@
 function MinElement(arr){
 const min = arr[0];
 
-for (let i of arr){
-    if(arr[i] < min)
-    min = arr[i];
+for (let index of arr){
+    if(arr[index] < min)
+    min = arr[index];
 }
 return min;
 }
@@ -17,9 +17,9 @@ function max(arr){
 
     const max = arr[0];
 
-    for ( let j of arr){
-        if (arr[j] > max)
-        max = arr[j];
+    for ( let index of arr){
+        if (arr[index] > max)
+        max = arr[index];
     }
 return max;
 
