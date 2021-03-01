@@ -1,4 +1,4 @@
-//count unique pairs on a sorted array
+//count unique values in a sorted array
 //time complexity O(n)
 
 function CountUniqueValues(arr){
