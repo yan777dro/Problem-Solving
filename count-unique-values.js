@@ -5,7 +5,7 @@ function CountUniqueValues(arr){
 
     if (!arr.length) return 0;
 
-    const count = 1;
+    let count = 1;
 
     for(index of arr){
 
