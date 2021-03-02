@@ -7,9 +7,9 @@ function thereDups(arg){
 
     const look = {};
 
-    for(let index of arg){
-        if(look[index]) return true;
-        look[index] = 1;
+    for(let val of arg){
+        if(look[val]) return true;
+        look[val] = 1;
     }
 
     return false;
