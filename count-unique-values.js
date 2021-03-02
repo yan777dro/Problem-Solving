@@ -9,11 +9,11 @@ function CountUniqueValues(arr){
 
     for(index of arr){
 
-        if(arr[index] == arr[index + 1]) return count;
+        if(arr[index] !== arr[index + 1]) count++;
 
 
     }
 
-    count++;
+    return count;
 
 }
