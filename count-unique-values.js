@@ -7,9 +7,9 @@ function CountUniqueValues(arr){
 
     let count = 1;
 
-    for(index of arr){
+    for(let val of arr){
 
-        if(arr[index] !== arr[index + 1]) count++;
+        if(arr[val] !== arr[val + 1]) count++;
 
 
     }
