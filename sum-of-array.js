@@ -5,8 +5,8 @@ function sumOfArray(arr){
 
     const sum = 0;
 
-    for(let index of arr){
-        sum += arr[index];
+    for(let item of arr){
+        sum += arr[item];
     }
 
     return sum;
