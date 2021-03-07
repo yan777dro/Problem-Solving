@@ -2,6 +2,8 @@
 
 //examples:  level, rotor, madam, 9119, 51015
 
+//both solutions have a time complexity of O(n)
+
 
 //recurseive solution
 function palindrome(str){
