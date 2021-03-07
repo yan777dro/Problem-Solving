@@ -19,14 +19,14 @@ for example 1, 1 , 2 , 3, 5, 8, 13, 21, 34, 55
 in an array. **/
  //time complexity O(n)
 
- function FibonacciSeq(num){
+ function FibonacciSeq(number){
 
-    const numbersArr = [1];
+    const arr = [1];
     
-    for(let i = 1; i < num; i++){
-        numbersArr[i] = numbersArr[i-1] + (numbersArr[i-2] || 0); 
+    for(let i = 1; i < number; i++){
+        arr[i] = arr[i-1] + (arr[i-2] || 0); 
     }
-    return numbersArr;
+    return arr;
     
     
        
