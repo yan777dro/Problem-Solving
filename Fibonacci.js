@@ -23,7 +23,7 @@ in an array. **/
 
     const numbersArr = [1];
     
-    for(let i =1; i < num; i++){
+    for(let i = 1; i < num; i++){
         numbersArr[i] = number[i-1] + (numbersArr[i-2] || 0);
     }
     return numbersArr;
