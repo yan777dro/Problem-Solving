@@ -13,7 +13,7 @@ return min;
 //find max/largest element of an array
 //time complexity O(n)
 
-function max(arr){
+function maxElement(arr){
 
     const max = arr[0];
 
